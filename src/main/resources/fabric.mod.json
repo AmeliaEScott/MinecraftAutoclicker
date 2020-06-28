@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "io_pyrite_autoclicker",
+  "version": "${version}",
+  "name": "Autoclicker",
+  "description": "A simple autoclicker",
+  "authors": [
+    "Timothy Scott"
+  ],
+  "contributors": [],
+  "contact": {
+    "sources": "https://github.com/ItsTimmy/MinecraftAutoclicker"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/io_pyrite_autoclicker/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "cotton-client-commands": ["io.pyrite.autoclicker.Autoclicker"],
+    "client": [],
+    "server": []
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*",
+    "cotton-client-commands": "^1.0.0"
+  }
+}
